@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak kami</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/logo-itsbuah-01.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <img src="image/logo-itsbuah-01.png" alt="Deskripsi Gambar" width="100" height="100">
+            <h2 class= "nav-logo">Elite Health Consultan <br> By Irwan Danu Suhendar </h2>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="kontak">
+        <h2>Hubungi Kami</h2>
+        <p>Tertarik bergabung? Hubungi kami sekarang dan jadilah bagian dari mitra #SehatBerdampak.</p>
+        <a href="https://wa.me/628811743560?text=Halo,%20saya%20ingin%20bergabung%kemitraan%20buah%20dan%20sayur" class="whatsapp-btn" target="_blank">Pesan via WhatsApp</a>
+    </section>
+    <script>
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
+</script>
+
+</body>
