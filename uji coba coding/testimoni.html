@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimoni</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/logo-itsbuah-01.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <img src="image/logo-itsbuah-01.png" alt="Deskripsi Gambar" width="100" height="100">
+            <h2 class= "nav-logo">Elite Health Consultan <br> By Irwan Danu Suhendar </h2>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+   <section id="testimoni">
+        <h2>Testimoni Pelanggan</h2>
+        <div class="testimoni-container">
+            <div class="testimoni-item">
+                <p>"Jusnya enak dan bikin badan lebih sehat! Terus beli deh."</p>
+                <cite>- Bpk Alfendo, Jakarta</cite>
+            </div>
+            <div class="testimoni-item">
+                <p>"Sehat cerdas tangguh, beneran! Anak saya jadi lebih cerdas."</p>
+                <cite>- Bpk Budi, Bandung</cite>
+            </div>
+             <div class="testimoni-item">
+                <p>"Rasanyaa enak bangettt, Rekomendasi dehhh."</p>
+                <cite>- Ibu michelle, Semarang</cite>
+            </div>
+             <div class="testimoni-item">
+                <p>"Tempat terbaik yang pernah saya beli adalah its buah."</p>
+                <cite>- Ibu Mila, Jakarta</cite>
+            </div>
+             <div class="testimoni-item">
+                <p>"Keren pelayanannya, EHC nya juga membantu."</p>
+                <cite>- Bpk Ivan, Citayam</cite>
+            </div>
+             <div class="testimoni-item">
+                <p>"Cocok buat kesehatan, rasanya juga enak bangett."</p>
+                <cite>- Bpk Adam, Jakarta</cite>
+            </div>
+        </div>
+    </section>
+    <script>
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
+</script>
+
+</body>
